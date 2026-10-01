@@ -7,11 +7,12 @@ tags: package manager, pnpm, npm, yarn, deno, bun
 
 ### Go-To
 
-- **pnpm** — Fast, disk-efficient package manager with strict symlinked `node_modules` that prevents phantom dependencies. pnpm's content-addressable store saves disk space across monorepos and projects. First-class monorepo support via pnpm workspaces.
+- **nub** - Ultra-fast, pnpm-compatible package manager and all-in-one Node.js toolkit powered by Rust. Provides drop-in flag compatibility with pnpm, content-addressable storage, and zero-lock-in migration while adding built-in supply-chain security defaults (deny-by-default build scripts and OSV vulnerability checks).
 
 ### Acceptable
 
 - **Deno** — When creating an application that requires an entrypoint where running the application as a TypeScript script is simpler than bundling it (e.g., CLI tools, scripts, one-off utilities). Deno's native TypeScript support and single-file execution model simplify these use cases.
+- **pnpm** — Fast, disk-efficient package manager with strict symlinked `node_modules` that prevents phantom dependencies. pnpm's content-addressable store saves disk space across monorepos and projects. First-class monorepo support via pnpm workspaces.
 
 ### Unacceptable
 

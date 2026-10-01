@@ -34,7 +34,7 @@ Reference these rules when:
 | ORM | Prisma | Drizzle (no preprocess) | — |
 | CSS/Styling | CSS Modules (w/ Mantine) | Tailwind (w/ Shadcn/custom) | Panda CSS, Vanilla Extract, Styled Components, Emotion, Inline Styles |
 | Testing | Vitest + Testing Library | Playwright, Storybook | Jest, Cypress |
-| Package Manager | pnpm | Deno (TS scripts) | Bun, npm, Yarn |
+| Package Manager | nub | Deno (TS scripts), pnpm | Bun, npm, Yarn |
 | Deployment/Hosting | Self-hosted Coolify | — | Vercel, Cloudflare, AWS, Railway, Fly.io, DigitalOcean |
 | API Layer | TanStack Start / Hono+Zod+OpenAPI | tRPC, Express, Nitro | GraphQL, gRPC, Fastify, Elysia |
 | Database | PostgreSQL | SQLite, MongoDB, Valkey | MySQL |
